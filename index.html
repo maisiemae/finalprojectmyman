@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="login">
+    <input id="username" placeholder="Username">
+    <input id="password" placeholder="Password" type="password">
+    <input type="button" value="Login" onclick="login()"></input>
+    <span id="incorrect"></span>
+</div>
+<div class="nav">
+    <input type="button" id="grade-view" value="Grade View" onclick="gradeView()"></input>
+    <input type="button" id="add-grade" value="Add Grade" onclick="addGradeView()"></input>
+</div>
+<div class="grade-view"></div>
+    <div id="grades">
+        <h3>Grades</h3>
+    </div>
+<div class="add-grade">
+    <input id="name" placeholder="Student Name" type="string">
+    <input id="grade" placeholder="Student Grade (0-100)">
+    <input type="button" id="submit" value="Submit Grade" onclick="submitGrades()"></input>
+    <span id="incorrect-grade"></span>
+</div>
+</body>
+</html>
